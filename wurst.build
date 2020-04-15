@@ -1,46 +1,23 @@
+---
 projectName: WurstTemplate
 dependencies:
 - https://github.com/taoria/wurstStdlib2
-- https://github.com/frotty/frentity
 buildMapData:
-  name: WurstMap # Name shown ingame, may be colored
-  fileName: MyWurstMap # Name of the map file
-  author: SomeWurstUser # Name of the author
+  name: WurstMap
+  fileName: MyWurstMap
+  author: SomeWurstUser
   optionsFlags:
     forcesFixed: true
   players:
-  - id: 0
+  - id: -1
     name: PlayerA
     race: HUMAN
     controller: USER
-    fixedStartLoc: false
   - id: 1
     name: PlayerB
     race: UNDEAD
     controller: COMPUTER
-    fixedStartLoc: false
   - id: 2
     name: PlayerC
     race: HUMAN
     controller: COMPUTER
-    fixedStartLoc: false
-  forces:
-  - name: DefaultForce
-    playerIds:
-    - 0
-    flags:
-      allied: true
-      alliedVictory: true
-      sharedVision: true
-      sharedControl: false
-      sharedControlAdvanced: false
-  - name: DefaultForce
-    playerIds:
-    - 1
-    - 2
-    flags:
-      allied: true
-      alliedVictory: true
-      sharedVision: true
-      sharedControl: false
-      sharedControlAdvanced: false
