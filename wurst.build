@@ -1,7 +1,6 @@
 projectName: WurstTemplate
 dependencies:
 - https://github.com/taoria/wurstStdlib2
-- https://github.com/frotty/frentity
 buildMapData:
   name: WurstMap # Name shown ingame, may be colored
   fileName: MyWurstMap # Name of the map file
