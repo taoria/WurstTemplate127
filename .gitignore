@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+!/_build/blizzard.j
+!/_build/common.j
+>>>>>>> a49ae0eb562ddd1d8e4d63f393a27c332aa4ed5d
 _build/
 wurst.dependencies
 .vscode/settings.json

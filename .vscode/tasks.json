@@ -6,7 +6,7 @@
         {
             "label": "run map with YDWEConfig",
             "type": "shell",  // [shell,process]
-            "command": "D:\\YDWE\\YDWEConfig.exe",
+            "command": "D:\\dpw\\WorldEdit\\WorldEdit\\bin\\YDWEConfig.exe",
             "args": [
                 "-launchwar3",
                 "-loadfile",
